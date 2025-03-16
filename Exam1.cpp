@@ -8,6 +8,7 @@ Employees get paid $1500 in advance, program this amount to be subtracted from c
 If advance payment is more than commission payment then dispaly that salesman owes Crazy Al
 */
 
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
@@ -73,7 +74,7 @@ int main()
 		cout << "You owe Crazy Al's $" << CrazyAlPayment;
 	}
 	
-	
+	//Display for payment
 	cout << "\n";
 	cout << setw(23) << right << "" <<"Payment\n";
 	cout << fixed << setprecision(2) << setw(15) << right << "" << "Monthly Sales: $" << Sales << endl;
