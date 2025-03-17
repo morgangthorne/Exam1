@@ -25,7 +25,7 @@ int main()
 
 	cout << setw(18) << right << "" << "Commission Rates\n" << setw(15) << right << "" << "Less than $10,000  5%\n";
 	cout << setw(15) << right << "" << "$10,000-$14,999   10%\n" << setw(15) << right << "" << "$15,000-$17,999   12%\n";
-	cout << setw(15) << right << "" << "$18,000-$21,999   14%\n" << setw(15) << right << "" << "$20,000 or more   16%\n";
+	cout << setw(15) << right << "" << "$18,000-$21,999   14%\n" << setw(15) << right << "" << "$22,000 or more   16%\n";
 
 	//User enters monthly sales, while statement will display error and allow user to enter a valid value
 	cout << endl;
